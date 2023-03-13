@@ -1,0 +1,23 @@
+{
+  "menu": [
+    {
+      "url": "/dashboard",
+      "name": "Home",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "/dashboard"
+    },
+    {
+      "url": "/settings",
+      "name": "Settings",
+      "icon": "menu-icon tf-icons bx bx-cog",
+      "slug": "/settings"
+    },
+    {
+      "url": "/create",
+      "name": "Upload PDF",
+      "icon": "menu-icon tf-icons bx bx-file",
+      "slug": "/create"
+    }
+    
+  ]
+}
