@@ -13,7 +13,7 @@
       "slug": "/settings"
     },
     {
-      "url": "/create",
+      "url": "/scan",
       "name": "Upload PDF",
       "icon": "menu-icon tf-icons bx bx-file",
       "slug": "/create"

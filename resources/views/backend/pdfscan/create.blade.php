@@ -23,15 +23,15 @@
   <!-- Basic  -->
   <div class="col-12">
     <div class="card mb-4">
-      <h5 class="card-header">Basic</h5>
+      <h5 class="card-header">Upload your PDF</h5>
       <div class="card-body">
-        <form action="/upload" class="dropzone needsclick" id="dropzone-basic">
-          <div class="dz-message needsclick">
-            Drop files here or click to upload
-            <span class="note needsclick">(This is just a demo dropzone. Selected files are <strong>not</strong> actually uploaded.)</span>
+        <form action="{{ route('pdf.create') }}" method="POST" enctype="multipart/form-data">
+          @csrf
+          <div class="form-group">
+            <input type="file" name="pdf" id="" class="form-control">
           </div>
-          <div class="fallback">
-            <input name="file" type="file" />
+          <div class="form-group mt-4">
+            <button type="submit" class="btn btn-primary">Upload</button>
           </div>
         </form>
       </div>

@@ -41,6 +41,7 @@ Route::group(['middleware' => 'auth'], function() {
   Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
   //pdf routes
-  Route::get('/create', [PdfController::class, 'create'])->name('pdf.create');
+  Route::get('/scan', [PdfController::class, 'index'])->name('pdf.index');
+  Route::post('/create', [PdfController::class, 'create'])->name('pdf.create');
 });
 

@@ -11,7 +11,7 @@
     "php": "^8.0.2",
     "appslabke/lara-izitoast": "^1.1",
     "fruitcake/laravel-cors": "^2.0.5",
-    "guzzlehttp/guzzle": "^7.2",
+    "guzzlehttp/guzzle": "^7.5",
     "laravel/framework": "^9.0",
     "laravel/jetstream": "2.8.5",
     "laravel/sanctum": "^2.14",
